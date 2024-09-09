@@ -11,8 +11,8 @@ body {
   background: rgb(255, 223, 240);
   background: linear-gradient(
     180deg,
-    rgba(255, 223, 240, 1) 0%,
-    rgb(204, 130, 168) 100%,
+    rgba(255, 223, 240) 0%,
+    rgb(130, 204, 204) 100%,
     rgba(43, 10, 28, 1) 100%
   );
   padding: 1%;
@@ -39,8 +39,8 @@ body {
   background: linear-gradient(
     180deg,
     rgb(41, 41, 41) 0%,
-    rgb(204, 130, 168) 00%,
-    rgb(211, 210, 211) 100%
+    rgb(130, 204, 204) 0%,
+    rgb(255, 223, 240) 100%
   );
 }
 
@@ -69,6 +69,13 @@ body {
 
 .card_description {
   text-align: center;
+}
+
+.card_answer {
+  font-size: medium;
+  box-sizing: border-box;
+  width: 40%;
+  margin: 0 30% 2% 30%;
 }
 
 .navbar_ul {
