@@ -4,7 +4,6 @@
 
 body {
   margin: 0;
-  background-color: darkolivegreen;
 }
 
 .header {
@@ -13,7 +12,7 @@ body {
   background: linear-gradient(
     180deg,
     rgba(255, 223, 240, 1) 0%,
-    rgba(77, 27, 53, 1) 100%,
+    rgb(204, 130, 168) 100%,
     rgba(43, 10, 28, 1) 100%
   );
   padding: 1%;
@@ -40,7 +39,7 @@ body {
   background: linear-gradient(
     180deg,
     rgb(41, 41, 41) 0%,
-    rgba(77, 27, 53, 1) 00%,
+    rgb(204, 130, 168) 00%,
     rgb(211, 210, 211) 100%
   );
 }
