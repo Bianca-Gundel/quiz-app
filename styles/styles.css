@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
-  background-color: darkolivegreen;
 }
 
 body {
   margin: 0;
+  background-color: darkolivegreen;
 }
 
 .header {
@@ -24,13 +24,11 @@ body {
 
 .header_title {
   color: rgb(0, 0, 0);
-  background-color: transparent;
   margin: 0;
 }
 
 .header_description {
   color: rgb(0, 0, 0);
-  background-color: transparent;
 }
 
 .navbar {
@@ -60,44 +58,27 @@ body {
 
 .card_title {
   text-align: center;
-  background-color: transparent;
 }
 
 .card_icon {
   position: absolute;
   top: 0;
   right: 0;
+  background-color: transparent;
   border: none;
-  background-color: transparent;
-}
-
-.card_icon img {
-  background-color: transparent;
 }
 
 .card_description {
   text-align: center;
-  background-color: transparent;
 }
 
 .navbar_ul {
   display: flex;
   justify-content: space-around;
-  background-color: transparent;
 }
 
 .navbar_ul li {
   list-style: none;
-  background-color: transparent;
-  padding: 0px 2% 0px 2%;
   border-right: 2px solid black;
   border-left: 2px solid black;
-}
-
-.navbar_ul li a {
-  background-color: transparent;
-}
-
-.navbar_ul li img {
-  background-color: transparent;
 }
