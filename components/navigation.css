@@ -1,0 +1,24 @@
+.navbar {
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+  background: rgb(255, 223, 240);
+  background: linear-gradient(
+    180deg,
+    rgb(41, 41, 41) 0%,
+    rgb(130, 204, 204) 0%,
+    rgb(255, 223, 240) 100%
+  );
+}
+
+.navbar_ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar_ul li {
+  list-style: none;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}

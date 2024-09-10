@@ -1,0 +1,14 @@
+@import "./components/theme.css";
+@import "./components/header.css";
+@import "./components/navigation.css";
+@import "./components/card.css";
+@import "./components/button.css";
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
