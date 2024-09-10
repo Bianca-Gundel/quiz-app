@@ -1,0 +1,26 @@
+.card {
+  position: relative;
+  margin: 5% 10% 5% 10%;
+  width: 80%;
+  border: 5px solid #c9c9c9;
+  background-color: darkgrey;
+  border-radius: 20px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.card_title {
+  text-align: center;
+}
+
+.card_icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.card_description {
+  text-align: center;
+}
