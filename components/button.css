@@ -4,3 +4,7 @@
   width: 40%;
   margin: 0 30% 2% 30%;
 }
+
+.hidden {
+  display: none;
+}
