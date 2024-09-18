@@ -1,0 +1,17 @@
+.card_answer_button {
+  font-size: medium;
+  box-sizing: border-box;
+  width: 40%;
+  margin: 0 30% 2% 30%;
+}
+
+.answer {
+  display: none;
+  text-align: center;
+  background-color: aquamarine;
+  margin: 5%;
+}
+
+.hidden {
+  display: block;
+}
